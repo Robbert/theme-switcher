@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="utrecht-theme">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NL Design System example</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@nl-design-system-unstable/amsterdam-design-tokens/dist/theme/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@nl-design-system-unstable/rijkshuisstijl-design-tokens/dist/theme/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@nl-design-system-unstable/duo-design-tokens/dist/theme/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css"
+    />
+    <script
+     src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
+      type="module"
+    ></script>
+    <style>
+    body {
+	  --theme-switcher-box-size: 50px;
+	  padding-block-start: calc(var(--theme-switcher-box-size) * 1.2);
+    }
+
+	.theme-switcher {
+		position: fixed;
+		top: 0;
+		left:  0;
+		right:  0;
+		height: var(--theme-switcher-box-size);
+		background: white;
+		border-bottom:  1px solid black;
+		display: flex;
+		align-items: center;
+		box-shadow: 0 0 6px rgba(0,0,0,0.16);
+		background-color:  #eee;
+		font-family:  system-ui;
+	}
+	</style>
+  </head>
+  <body>
+  	<div class="theme-switcher">
+  		<label for="">Theme:</label>
+  		<select onchange="document.documentElement.className = this.value">
+  			<option value="duo-theme">DUO</option>
+  			<option value="amsterdam-theme">Gemeente Amsterdam</option>
+  			<option value="utrecht-theme" selected>Gemeente Utrecht</option>
+  		</select>
+  	</div>
+    <utrecht-html-content>
+      <h1>Page styled with NL Design System</h1>
+      <article>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+        <p>
+          <strong>Paragraph</strong>: Lorem ipsum dolor sit amet, <em>consectetur adipiscing elit</em>, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id <a href="https://example.com" target="_blank" rel="external">est laborum</a>.
+        </p>
+        <blockquote>
+          <p>
+            No man is an island,
+            <br />
+            Entire of itself;
+            <br />
+            Every man is a piece of the continent,
+            <br />
+            A part of the main.
+          </p>
+          <p>
+            If a clod be washed away by the sea,
+            <br />
+            Europe is the less,
+            <br />
+            As well as if a promontory were:
+            <br />
+            As well as if a manor of thy friend's
+            <br />
+            Or of thine own were.
+          </p>
+          <p>
+            Any man's death diminishes me,
+            <br />
+            Because I am involved in mankind.
+            <br />
+            And therefore never send to know for whom the bell tolls;
+            <br />
+            It tolls for thee.
+          </p>
+        </blockquote>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+        <table>
+          <caption>
+            Table Caption
+          </caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th scope="col">Header Column A</th>
+              <th scope="col">Header Column B</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Header Row 1</th>
+              <td>Cell A1</td>
+              <td>Cell B1</td>
+            </tr>
+            <tr>
+              <th scope="row">Header Row 2</th>
+              <td>Cell A2</td>
+              <td>Cell B2</td>
+            </tr>
+          </tbody>
+        </table>
+        <form action="https://example.com/" method="post">
+          <p>
+            <label for="username">Username</label>
+            <input type="text" autocomplete="username" id="username" name="username" />
+          </p>
+          <p>
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes"></textarea>
+          </p>
+          <fieldset>
+            <legend>Disabled inputs</legend>
+            <p>
+              <label for="disabled-username">Username</label>
+              <input type="text" autocomplete="username" id="disabled-username" name="username" disabled />
+            </p>
+            <p>
+              <label for="disabled-notes">Notes</label>
+              <textarea id="disabled-notes" name="notes" disabled></textarea>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Read-only inputs</legend>
+            <p>
+              <label for="readonly-username">Username</label>
+              <input
+                type="text"
+                autocomplete="username"
+                id="readonly-username"
+                name="username"
+                value="example"
+                readonly
+              />
+            </p>
+            <p>
+              <label for="readonly-notes">Notes</label>
+              <textarea id="readonly-notes" name="notes" value="example" readonly></textarea>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Inputs with placeholder</legend>
+            <p>
+              <label for="placeholder-username">Username</label>
+              <input
+                type="text"
+                autocomplete="username"
+                id="placeholder-username"
+                name="username"
+                placeholder="Username"
+              />
+            </p>
+            <p>
+              <label for="placeholder-notes">Notes</label>
+              <textarea id="placeholder-notes" name="notes" placeholder="Write some notes"></textarea>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Options</legend>
+            <p>
+              <input type="radio" id="option-a" name="option" value="A" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" value="B" />
+              <label for="option-b">Option B</label>
+            </p>
+          </fieldset>
+          <p>
+            <input type="checkbox" id="eula" name="eula" />
+            <label for="eula">I agree to the terms and conditions</label>
+          </p>
+          <p>
+            <button type="submit">Login</button>
+          </p>
+        </form>
+      </article>
+      <article>
+        <header>
+          <utrecht-heading level="2">Web Components</utrecht-heading>
+        </header>
+        <utrecht-paragraph lead="true"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</utrecht-paragraph
+        >
+        <utrecht-paragraph
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</utrecht-paragraph
+        >
+        <p>
+          <utrecht-button>Click me</utrecht-button>
+        </p>
+        <p>
+          <utrecht-badge-data>Category</utrecht-badge-data>
+        </p>
+        <p>
+          <utrecht-badge-counter value="1234" max="999">1234</utrecht-badge-counter>
+        </p>
+        <ul>
+          <li><utrecht-badge-status status="danger">Danger</utrecht-badge-status></li>
+          <li><utrecht-badge-status status="warning">Warning</utrecht-badge-status></li>
+          <li><utrecht-badge-status status="safe">Safe</utrecht-badge-status></li>
+          <li><utrecht-badge-status status="error">Error</utrecht-badge-status></li>
+          <li><utrecht-badge-status status="success">Great success!</utrecht-badge-status></li>
+        </ul>
+      </article>
+      <utrecht-page-footer>
+        <p>Footer</p>
+      </utrecht-page-footer>
+    </utrecht-html-content>
+  </body>
+</html>

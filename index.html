@@ -18,46 +18,42 @@
       type="text/css"
       href="https://unpkg.com/@nl-design-system-unstable/duo-design-tokens/dist/theme/index.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css"
-    />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css" />
     <script
-     src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
+      src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
       type="module"
     ></script>
     <style>
-    body {
-	  --theme-switcher-box-size: 50px;
-	  padding-block-start: calc(var(--theme-switcher-box-size) * 1.2);
-    }
+      body {
+        --theme-switcher-box-size: 50px;
+        padding-block-start: calc(var(--theme-switcher-box-size) * 1.2);
+      }
 
-	.theme-switcher {
-		position: fixed;
-		top: 0;
-		left:  0;
-		right:  0;
-		height: var(--theme-switcher-box-size);
-		background: white;
-		border-bottom:  1px solid black;
-		display: flex;
-		align-items: center;
-		box-shadow: 0 0 6px rgba(0,0,0,0.16);
-		background-color:  #eee;
-		font-family:  system-ui;
-	}
-	</style>
+      .theme-switcher {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: var(--theme-switcher-box-size);
+        background: white;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+        background-color: #eee;
+        font-family: system-ui;
+      }
+    </style>
   </head>
   <body>
-  	<div class="theme-switcher">
-  		<label for="">Theme:</label>
-  		<select onchange="document.documentElement.className = this.value">
-  			<option value="duo-theme">DUO</option>
-  			<option value="amsterdam-theme">Gemeente Amsterdam</option>
-  			<option value="utrecht-theme" selected>Gemeente Utrecht</option>
-  		</select>
-  	</div>
+    <div class="theme-switcher">
+      <label for="">Theme:</label>
+      <select onchange="document.documentElement.className = this.value">
+        <option value="duo-theme">DUO</option>
+        <option value="amsterdam-theme">Gemeente Amsterdam</option>
+        <option value="utrecht-theme" selected>Gemeente Utrecht</option>
+      </select>
+    </div>
     <utrecht-html-content>
       <h1>Page styled with NL Design System</h1>
       <article>

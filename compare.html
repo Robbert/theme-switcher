@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="utrecht-theme">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NL Design System comparison</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@nl-design-system-unstable/amsterdam-design-tokens/dist/theme/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@nl-design-system-unstable/rijkshuisstijl-design-tokens/dist/theme/index.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@nl-design-system-unstable/duo-design-tokens/dist/theme/index.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css" />
+    <script
+      src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
+      type="module"
+    ></script>
+    <style>
+      .example {
+        padding: 2em;
+        outline: 2px dotted silver;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Comparison of NL Design System component styles</h1>
+    <section>
+      <h2>Heading 1</h2>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example amsterdam-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Den Haag</h3>
+        <div class="example utrecht-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Category badge</h2>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example amsterdam-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Den Haag</h3>
+        <div class="example utrecht-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>

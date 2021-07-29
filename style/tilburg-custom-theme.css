@@ -1,19 +1,19 @@
 .tilburg-theme {
   --utrecht-badge-background-color:#666666;
+  --utrecht-border-style-solid: solid;
   /*volgens mij missen we nog een utrecht-badge-font-size. Gezien ik hem niet kan vinden en het niks doet
 als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in de badge naast de font-weight*/
   --utrecht-document-font-family:Arial;
+  --utrecht-form-input-border-width:0.1px;
   --utrecht-heading-1-color:#016596;
   --utrecht-heading-font-weight:bold;
   --utrecht-table-header-border-block-width: 0.1px;
   --utrecht-table-header-border-block-end-color:ebebeb;
   --utrecht-table-header-border-block-end-width:0.5px;
   --utrecht-table-row-border-block-color: #ebebeb;
-  --utrecht-border-style-solid: solid;
   --utrecht-table-cell-border-color: #ebebeb;
   /* Ik kan nu niks met de cellen van tabellen border doen hierin. Maar ik zag wel dat je dat in het nieuwe bestand had gezet. Dus
   dan moet je dat straks alleen nog toevoegen dat het hier ook werkt*/
-  --utrecht-form-input-border-width:0.1px;
   --utrecht-textbox-border-bottom-width:0.04px;
   --utrecht-textbox-border-color:grey;
   --utrecht-textbox-border-radius:3px;

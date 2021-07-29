@@ -55,3 +55,8 @@
   --utrecht-form-input-disabled-border-color: var(--dso-toolkit-zwart-10);
   --utrecht-form-input-disabled-text-color: #999;
 }
+.toolkit-theme {
+  --utrecht-heading-1-font-size:30px;
+  --utrecht-heading-1-font-family:Asap, sans-serif;
+  --utrecht-heading-1-color:#275937;
+}

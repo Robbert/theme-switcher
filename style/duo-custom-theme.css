@@ -9,7 +9,9 @@
   --utrecht-table-caption-font-weight: var(--amsterdam-typography-weight-scale-bold-font-weight);
   --utrecht-table-header-border-block-width: 0.5px;
   --utrecht-table-heading-font-weight:normal;
-  /*Hiermee kun je de font weight aanpassen*/
+    /*Hiermee kun je de font weight aanpassen, alleen voor alles binnen de tabel wordt aangepast. Dus misschien moet er nog
+  een font-weight voor de cellen in de tabel naast de heading. Gezien hiermee pas je alles aan. Tenzij je het met meerdere
+  classes zou willen fixen*/
   --utrecht-table-row-border-block-color: #ebebeb;
   --utrecht-table-row-border-block-width: 1px;
   --utrecht-table-cell-line-height:0.7;

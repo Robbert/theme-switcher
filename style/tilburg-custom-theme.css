@@ -5,7 +5,23 @@ als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in
   --utrecht-document-font-family:Arial;
   --utrecht-heading-1-color:#016596;
   --utrecht-heading-font-weight:bold;
-  /*
+  --utrecht-table-header-border-block-width: 0.1px;
+  --utrecht-table-header-border-block-end-color:ebebeb;
+  --utrecht-table-header-border-block-end-width:0.5px;
+  --utrecht-table-row-border-block-color: #ebebeb;
+  --utrecht-border-style-solid: solid;
+  --utrecht-table-cell-border-color: #ebebeb;
+  /* Ik kan nu niks met de cellen border doen hierin. Maar ik zag wel dat je dat in het nieuwe bestand had gezet. Dus
+  dan moet je dat straks alleen nog toevoegen dat het hier ook werkt*/
+  --utrecht-form-input-border-width:0.1px;
+
+/*
+Inputfield
+  Ik kan niet vinden de form-input-border-width. Wat ik raar vind gezien ik bij Amsterdam en DUO het er wel goed uit ziet.
+  Maar die mis ik zover die en form-input-border-radius ook
+
+
+  Tabel
   Bij een aantal soorten tabellen heeft de header een ander achtergrond kleur. Die mist nog bij de voorbeelden in Utrecht
   --utrecht-table-header-background-color:grey;
   Ik heb wel hetzelfde effect gegeven door de volgende class .tilburg toe te voegen en een styling te geven voor het effect.
@@ -13,4 +29,5 @@ als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in
 }
 .tilburg {
   background-color: #E5E5E5;
+  font-weight: bold;
 }

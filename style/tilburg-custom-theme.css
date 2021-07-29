@@ -1,0 +1,16 @@
+.tilburg-theme {
+  --utrecht-badge-background-color:#666666;
+  /*volgens mij missen we nog een utrecht-badge-font-size. Gezien ik hem niet kan vinden en het niks doet
+als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in de badge naast de font-weight*/
+  --utrecht-document-font-family:Arial;
+  --utrecht-heading-1-color:#016596;
+  --utrecht-heading-font-weight:bold;
+  /*
+  Bij een aantal soorten tabellen heeft de header een ander achtergrond kleur. Die mist nog bij de voorbeelden in Utrecht
+  --utrecht-table-header-background-color:grey;
+  Ik heb wel hetzelfde effect gegeven door de volgende class .tilburg toe te voegen en een styling te geven voor het effect.
+  */
+}
+.tilburg {
+  background-color: #E5E5E5;
+}

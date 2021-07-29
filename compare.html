@@ -16,6 +16,16 @@
     <link
       rel="stylesheet"
       type="text/css"
+      href="style/tilburg-custom-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style/duo-custom-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
       href="https://unpkg.com/@nl-design-system-unstable/rijkshuisstijl-design-tokens/dist/theme/index.css"
     />
     <link
@@ -55,6 +65,22 @@
           </utrecht-html-content>
         </div>
       </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example DUO-theme duo-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example tilburg-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
     </section>
     <section>
       <h2>Category badge</h2>
@@ -67,6 +93,18 @@
       <section>
         <h3>Utrecht</h3>
         <div class="example utrecht-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example DUO-theme duo-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example tilburg-theme">
           <utrecht-badge-status>Example</utrecht-badge-status>
         </div>
       </section>
@@ -84,6 +122,22 @@
       <section>
         <h3>Utrecht</h3>
         <div class="example utrecht-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Utrecht</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example DUO-theme duo-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is by DUO</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example tilburg-theme">
           <utrecht-html-content>
             <p>Example: This is how it is in Utrecht</p>
           </utrecht-html-content>
@@ -144,6 +198,71 @@
         </utrecht-html-content>
         </div>
       </section>
+      <section>
+        <h3>DUO</h3>
+        <utrecht-html-content>
+        <div class="example DUO-theme duo-theme">
+          <table>
+            <caption>Example table</caption>
+              <thead>
+                <caption>Years</caption>
+                <tr class="table-heading">
+                  <th></th>
+                  <th>2020</th>
+                  <th>2021</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr></tr>
+              <tr>
+                <th>Cel A</th>
+                <th>Cel B</th>
+                <th>Cel C</th>
+              </tr>
+              <tr>
+                <th>Cel A</th>
+                <th>Cel B</th>
+                <th>Cel C</th>
+              </tr>
+              <tr>
+                <th>Cel A</th>
+                <th>Cel B</th>
+                <th>Cel C</th>
+              </tr>
+            </tbody>
+          </table>
+        </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <utrecht-html-content>
+        <div class="example tilburg-theme">
+          <table>
+            <caption>Example table</caption>
+              <thead class="tilburg">
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th>Cel A</th>
+                <th>Cel B</th>
+                <th>Cel C</th>
+              </tr>
+              <tr>
+                <th>Cel A</th>
+                <th>Cel B</th>
+                <th>Cel c</th>
+              </tr>
+            </tbody>
+          </table>
+        </utrecht-html-content>
+        </div>
+      </section>
     </section>
     <h2>Category inputfields</h2>
       <section>
@@ -164,6 +283,24 @@
           <utrecht-html-content>
         </div>
       </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example DUO-theme duo-theme">
+          <utrecht-html-content>
+          <label for="Username">Username</label>
+          <input type="text">
+          <utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example tilburg-theme">
+          <utrecht-html-content>
+          <label for="Username">Username</label>
+          <input type="text">
+          <utrecht-html-content>
+        </div>
+      </section>
     </section>
     <h2>Category input radio</h2>
       <section>
@@ -174,7 +311,6 @@
           <p>
             <input type="radio" id="option-a" name="option">
             <label for="option-a">Option A</label>
-
           </p>
           <p>
             <input type="radio" id="option-b" name="option">
@@ -187,6 +323,40 @@
       <section>
         <h3>Utrecht</h3>
         <div class="example utrecht-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+          <p>
+            <input type="radio" id="option-a" name="option">
+            <label for="option-a">Option A</label>
+          </p>
+          <p>
+            <input type="radio" id="option-b" name="option">
+            <label for="option-b">Option B</label>
+          </p>
+          <button>Login</button>
+        </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example DUO-theme duo-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+          <p>
+            <input type="radio" id="option-a" name="option">
+            <label for="option-a">Option A</label>
+          </p>
+          <p>
+            <input type="radio" id="option-b" name="option">
+            <label for="option-b">Option B</label>
+          </p>
+          <button>Login</button>
+        </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example tilburg-theme">
           <utrecht-html-content>
             <legend>Options</legend>
           <p>

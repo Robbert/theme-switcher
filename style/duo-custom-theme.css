@@ -1,0 +1,18 @@
+.DUO-theme {
+  --utrecht-badge-background-color:var(--rijkshuisstijl-color-donkergeel-basis);
+  --utrecht-badge-border-radius: 6px;
+  --utrecht-form-label-font-weight:normal;
+  --utrecht-heading-1-font-size:var(--duo-typography-scale-xl-font-size);
+  /* Je kunt de heading niet aanpassen, de styling wordt altijd doorstreept. Hoe komt dit??*/
+  --utrecht-label-font-weight:normal;
+  --utrecht-paragraph-font-family:Verdana;
+  --utrecht-table-caption-font-weight: var(--amsterdam-typography-weight-scale-bold-font-weight);
+  --utrecht-table-header-border-block-width: 0.5px;
+  --utrecht-table-heading-font-weight:normal;
+  /*Hiermee kun je de font weight aanpassen*/
+  --utrecht-table-row-border-block-color: #ebebeb;
+  --utrecht-table-row-border-block-width: 1px;
+  --utrecht-table-cell-line-height:0.7;
+
+}
+

@@ -1,6 +1,7 @@
 .DUO-theme {
   --utrecht-badge-background-color:var(--rijkshuisstijl-color-donkergeel-basis);
   --utrecht-badge-border-radius: 6px;
+  --utrecht-button-font-size: 10px; /* Dit werkt niet helemaal */
   --utrecht-form-label-font-weight:normal;
   --utrecht-heading-1-font-size:var(--duo-typography-scale-xl-font-size);
   /* Je kunt de heading niet aanpassen, de styling wordt altijd doorstreept. Hoe komt dit??*/

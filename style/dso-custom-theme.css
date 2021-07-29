@@ -56,7 +56,26 @@
   --utrecht-form-input-disabled-text-color: #999;
 }
 .toolkit-theme {
-  --utrecht-heading-1-font-size:30px;
+
+  --utrecht-badge-background-color:#ffc107;
+  --utrecht-badge-border-radius:20px;
+  --utrecht-button-primary-action-background-color:#39870c;
+  --utrecht-button-border-radius:6px;
+  --utrecht-document-font-family:Asap, sans-serif;
+  --utrecht-document-color:#191919;
+  --utrecht-form-label-font-family:Asap, sans-serif;
+  --utrecht-heading-1-font-size:2rem;
   --utrecht-heading-1-font-family:Asap, sans-serif;
   --utrecht-heading-1-color:#275937;
+  --utrecht-link-color:#39870c;
+  --utrecht-table-header-border-block-end-color:ebebeb;
+  --utrecht-table-header-border-block-end-width:0.5px;
+  --utrecht-textbox-border-bottom-width:0.04px;
+  --utrecht-textbox-border-color:rgb(39, 89, 55);
+  --utrecht-textbox-border-radius:3px;
+}
+.tabel-begin {
+  /* Ik kon niet een component vinden die alleen de fontweight van de 1 kolom pakt dus dan zo gedaan.
+  Misschien moet je die nog fixen*/
+  --utrecht-table-heading-font-weight: bold;
 }

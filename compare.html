@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="style/tilburg-custom-theme.css" />
     <link rel="stylesheet" type="text/css" href="style/dso-custom-theme.css" />
     <link rel="stylesheet" type="text/css" href="style/duo-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/groningen-custom-theme.css" />
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -23,6 +25,11 @@
       href="https://unpkg.com/@nl-design-system-unstable/duo-design-tokens/dist/theme/index.css"
     />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@utrecht/component-library-css/dist/index.css"
+    />
     <script
       src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
       type="module"
@@ -80,6 +87,14 @@
       <section>
         <h3>DSO Toolkit</h3>
         <div class="example-story toolkit-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
           <utrecht-html-content>
             <h1>Example</h1>
           </utrecht-html-content>
@@ -465,5 +480,26 @@
         </div>
       </section>
     </section>
+    <section>
+      <h2>Footer</h2>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Utrecht</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Groningen</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+
+    </section>
+
   </body>
 </html>

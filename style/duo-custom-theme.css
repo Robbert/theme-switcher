@@ -4,10 +4,9 @@
   );
   --utrecht-badge-border-radius: 6px;
   --utrecht-button-font-size: 10px; /* Dit werkt niet helemaal */
-  --utrecht-form-label-font-weight: normal;
-  --utrecht-heading-1-font-size: var(--duo-typography-scale-xl-font-size);
+  --utrecht-form-label-font-weight: 400;
+  --utrecht-heading-1-font-size: 50px;
   /* Je kunt de heading niet aanpassen, de styling wordt altijd doorstreept. Hoe komt dit??*/
-  --utrecht-label-font-weight: 400;
   --utrecht-paragraph-font-family: Verdana;
   --utrecht-table-caption-font-weight: var(
     --amsterdam-typography-weight-scale-bold-font-weight

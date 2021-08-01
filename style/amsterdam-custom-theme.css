@@ -7,14 +7,5 @@
   --utrecht-table-header-border-block-end-width: 0;
   --utrecht-table-heading-font-weight: 400;
   --utrecht-table-row-border-block-end-color: transparent;
-  --utrecht-table-cell-line-height: 1;
-  --utrecht-typography-scale-sm-font-size: var(
-    --amsterdam-typography-scale-sm-font-size: 14px
-  );
-  --utrecht-typography-weight-scale-normal-font-weight: var(
-    --amsterdam-typography-weight-scale-normal-font-weight: 400
-  );
-  --utrecht-typography-sans-serif-font-family: var(
-    --amsterdam-typography-sans-serif-font-family: sans-serif
-  );
+  --amsterdam-article-line-height: 25px;
 }

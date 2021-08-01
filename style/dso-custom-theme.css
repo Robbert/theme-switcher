@@ -1,5 +1,5 @@
 .dso-theme {
-  --utrecht-text-max-width: 100%;
+  --utrecht-article-max-block-size: 100%;
   --utrecht-document-font-size: 16px;
   --utrecht-heading-1-font-size: 32px;
   --utrecht-heading-2-font-size: 24px;
@@ -12,7 +12,7 @@
   --utrecht-heading-3-color: var(--dso-toolkit-bosgroen);
   --utrecht-heading-4-color: var(--dso-toolkit-bosgroen);
   --utrecht-heading-5-color: var(--dso-toolkit-zwart-90);
-  --utrecht-main-line-height: 1.5;
+  --utrecht-document-line-height: 1.5;
   --utrecht-heading-1-font-weight: 700;
   --utrecht-heading-2-font-weight: 700;
   --utrecht-heading-3-font-weight: 600;
@@ -45,7 +45,7 @@
   --utrecht-form-input-border-width: 1px;
   --utrecht-form-input-padding-block: 6px;
   --utrecht-form-input-padding-inline: 14px;
-  --utrecht-form-input-corner-radius: 4px;
+  --utrecht-form-input-border-radius: 4px;
   --utrecht-form-input-line-height: 1.5;
   --utrecht-form-input-height: 40px;
   --utrecht-form-input-invalid-border-color: var(--dso-toolkit-secundair-rood);

@@ -1,8 +1,8 @@
 .groningen-theme {
-  --groningen-color-green-50: hsl(128 16% /36%); /*#4d6a51*/
+  --groningen-color-green-40: hsl(128 16% /36%); /*#4d6a51*/
   --groningen-color-grey-100: white;
   --groningen-sans-serif-font-family: Arial;
   --groningen-sans-serif-alternate-font-family: Verdana;
-  --utrecht-page-footer-background-color: var(--groningen-color-green-50);
+  --utrecht-page-footer-background-color: var(--groningen-color-green-40);
   --utrecht-page-footer-color: var(--groningen-color-grey-100);
 }

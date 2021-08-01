@@ -1,16 +1,20 @@
 .amsterdam-theme {
-
-  --utrecht-form-label-radio-font-weight:bold;
-  --utrecht-table-caption-font-weight: var(--amsterdam-typography-weight-scale-bold-font-weight);
+  --utrecht-form-label-radio-font-weight: bold;
+  --utrecht-table-caption-font-weight: var(
+    --amsterdam-typography-weight-scale-bold-font-weight
+  );
   --utrecht-table-header-border-block-end-color: transparent;
   --utrecht-table-header-border-block-end-width: 0;
-  --utrecht-table-heading-font-weight:normal;
+  --utrecht-table-heading-font-weight: normal;
   --utrecht-table-row-border-block-end-color: transparent;
-  --utrecht-table-cell-line-height:0.1;
-  --utrecht-typography-scale-sm-font-size: var(--amsterdam-typography-scale-sm-font-size: 14px);
-  --utrecht-typography-weight-scale-normal-font-weight: var(--amsterdam-typography-weight-scale-normal-font-weight: 400);
-  --utrecht-typography-sans-serif-font-family: var(--amsterdam-typography-sans-serif-font-family:sans-serif );
-
-
+  --utrecht-table-cell-line-height: 0.1;
+  --utrecht-typography-scale-sm-font-size: var(
+    --amsterdam-typography-scale-sm-font-size: 14px
+  );
+  --utrecht-typography-weight-scale-normal-font-weight: var(
+    --amsterdam-typography-weight-scale-normal-font-weight: 400
+  );
+  --utrecht-typography-sans-serif-font-family: var(
+    --amsterdam-typography-sans-serif-font-family: sans-serif
+  );
 }
-

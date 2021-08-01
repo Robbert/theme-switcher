@@ -1,21 +1,23 @@
 .DUO-theme {
-  --utrecht-badge-background-color:var(--rijkshuisstijl-color-donkergeel-basis);
+  --utrecht-badge-background-color: var(
+    --rijkshuisstijl-color-donkergeel-basis
+  );
   --utrecht-badge-border-radius: 6px;
   --utrecht-button-font-size: 10px; /* Dit werkt niet helemaal */
-  --utrecht-form-label-font-weight:normal;
-  --utrecht-heading-1-font-size:var(--duo-typography-scale-xl-font-size);
+  --utrecht-form-label-font-weight: normal;
+  --utrecht-heading-1-font-size: var(--duo-typography-scale-xl-font-size);
   /* Je kunt de heading niet aanpassen, de styling wordt altijd doorstreept. Hoe komt dit??*/
-  --utrecht-label-font-weight:normal;
-  --utrecht-paragraph-font-family:Verdana;
-  --utrecht-table-caption-font-weight: var(--amsterdam-typography-weight-scale-bold-font-weight);
+  --utrecht-label-font-weight: normal;
+  --utrecht-paragraph-font-family: Verdana;
+  --utrecht-table-caption-font-weight: var(
+    --amsterdam-typography-weight-scale-bold-font-weight
+  );
   --utrecht-table-header-border-block-width: 0.5px;
-  --utrecht-table-heading-font-weight:normal;
-    /*Hiermee kun je de font weight aanpassen, alleen voor alles binnen de tabel wordt aangepast. Dus misschien moet er nog
+  --utrecht-table-heading-font-weight: normal;
+  /*Hiermee kun je de font weight aanpassen, alleen voor alles binnen de tabel wordt aangepast. Dus misschien moet er nog
   een font-weight voor de cellen in de tabel naast de heading. Gezien hiermee pas je alles aan. Tenzij je het met meerdere
   classes zou willen fixen*/
   --utrecht-table-row-border-block-color: #ebebeb;
   --utrecht-table-row-border-block-width: 1px;
-  --utrecht-table-cell-line-height:0.7;
-
+  --utrecht-table-cell-line-height: 0.7;
 }
-

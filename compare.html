@@ -8,26 +8,10 @@
       type="text/css"
       href="https://unpkg.com/@nl-design-system-unstable/amsterdam-design-tokens/dist/theme/index.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/amsterdam-custom-thema.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/tilburg-custom-theme.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/dso-custom-theme.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/duo-custom-theme.css"
-    />
+    <link rel="stylesheet" type="text/css" href="style/amsterdam-custom-thema.css" />
+    <link rel="stylesheet" type="text/css" href="style/tilburg-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/dso-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/duo-custom-theme.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -47,6 +31,10 @@
       .example {
         padding: 2em;
         outline: 2px dotted silver;
+      }
+      section {
+        padding-inline-start: 2em;
+        border-inline-start: 1px solid darkgrey;
       }
     </style>
   </head>
@@ -86,7 +74,8 @@
           </utrecht-html-content>
         </div>
       </section>
-      <h3>DSO Toolkit</h3>
+      <section>
+        <h3>DSO Toolkit</h3>
         <div class="example toolkit-theme">
           <utrecht-html-content>
             <h1>Example</h1>
@@ -161,7 +150,7 @@
           </utrecht-html-content>
         </div>
       </section>
-      section>
+      <section>
         <h3>DSO Toolkit</h3>
         <div class="example toolkit-theme">
           <utrecht-html-content>
@@ -170,13 +159,16 @@
         </div>
       </section>
     </section>
-    <h2>Category table</h2>
+    <section>
+      <h2>Category table</h2>
       <section>
         <h3>Amsterdam</h3>
-        <utrecht-html-content>
         <div class="example amsterdam-theme">
-          <table>
-            <caption>Example table</caption>
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
               <thead>
                 <tr>
                   <th>Example A</th>
@@ -184,54 +176,62 @@
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-              </tr>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-              </tr>
-            </tbody>
-          </table>
-        </utrecht-html-content>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>Utrecht</h3>
         <div class="example utrecht-theme">
-        <utrecht-html-content>
-          <table>
-            <caption>Example table</caption>
-            <tbody>
-              <thead>
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <tbody>
+                <thead>
+                  <tr>
+                    <th>Example A</th>
+                    <th>Example B</th>
+                  </tr>
+                </thead>
+              </tbody>
+
+              <tbody>
                 <tr>
                   <th>Example A</th>
                   <th>Example B</th>
                 </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <th>Example A</th>
-                <th>Example B</th>
-              </tr>
-              <tr>
-                <th>Example A</th>
-                <th>Example B</th>
-              </tr>
-            </tbody>
-          </table>
-        </utrecht-html-content>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>DUO</h3>
-        <utrecht-html-content>
         <div class="example DUO-theme duo-theme">
-          <table>
-            <caption>Example table</caption>
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
               <thead>
-                <caption>Years</caption>
+                <caption>
+                  Years
+                </caption>
                 <tr class="table-heading">
                   <th></th>
                   <th>2020</th>
@@ -239,33 +239,35 @@
                 </tr>
               </thead>
               <tbody>
-              <tr></tr>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-                <th>Cel C</th>
-              </tr>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-                <th>Cel C</th>
-              </tr>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-                <th>Cel C</th>
-              </tr>
-            </tbody>
-          </table>
-        </utrecht-html-content>
+                <tr></tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>Tilburg</h3>
-        <utrecht-html-content>
         <div class="example tilburg-theme">
-          <table>
-            <caption>Example table</caption>
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
               <thead class="tilburg">
                 <tr>
                   <th>Example A</th>
@@ -274,27 +276,29 @@
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-                <th>Cel C</th>
-              </tr>
-              <tr>
-                <th>Cel A</th>
-                <th>Cel B</th>
-                <th>Cel c</th>
-              </tr>
-            </tbody>
-          </table>
-        </utrecht-html-content>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel c</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>DSO Toolkit</h3>
-        <utrecht-html-content>
         <div class="example toolkit-theme">
-          <table>
-            <caption>Example table</caption>
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
               <thead>
                 <tr>
                   <th>Example A</th>
@@ -304,87 +308,89 @@
                 </tr>
               </thead>
               <tbody>
-              <tr>
-                <th class="tabel-begin">1</th>
-                <th><a href="">Example B</a></th>
-                <th>Cel C</th>
-                <th>Cel D</th>
-              </tr>
-              <tr>
-                <th class="tabel-begin">2</th>
-                <th><a href="">Example B</a></th>
-                <th>Cel C</th>
-                <th>Cel D</th>
-              </tr>
-            </tbody>
-          </table>
-        </utrecht-html-content>
+                <tr>
+                  <th class="tabel-begin">1</th>
+                  <th><a href="">Example B</a></th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+                <tr>
+                  <th class="tabel-begin">2</th>
+                  <th><a href="">Example B</a></th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
         </div>
       </section>
     </section>
-    <h2>Category inputfields</h2>
+    <section>
+      <h2>Category inputfields</h2>
       <section>
         <h3>Amsterdam</h3>
         <div class="example amsterdam-theme">
-        <utrecht-html-content>
-          <label for="Username">Username</label><br>
-          <input type="text">
-        </utrecht-html-content>
+          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" />
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>Utrecht</h3>
         <div class="example utrecht-theme">
           <utrecht-html-content>
-          <label for="Username">Username</label>
-          <input type="text">
-          <utrecht-html-content>
+            <label for="Username">Username</label>
+            <input type="text" />
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>DUO</h3>
         <div class="example DUO-theme duo-theme">
           <utrecht-html-content>
-          <label for="Username">Username</label>
-          <input type="text">
-          <utrecht-html-content>
+            <label for="Username">Username</label>
+            <input type="text" />
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>Tilburg</h3>
         <div class="example tilburg-theme">
           <utrecht-html-content>
-          <label for="Username">Username</label><br>
-          <input type="text">
-          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" />
+          </utrecht-html-content>
         </div>
       </section>
       <section>
         <h3>DSO Toolkit</h3>
         <div class="example toolkit-theme">
           <utrecht-html-content>
-          <label for="Username">Username</label><br>
-          <input type="text" placeholder="username">
-          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" placeholder="username" />
+          </utrecht-html-content>
         </div>
       </section>
     </section>
-    <h2>Category input radio</h2>
+    <section>
+      <h2>Category input radio</h2>
       <section>
         <h3>Amsterdam</h3>
         <div class="example amsterdam-theme">
           <utrecht-html-content>
             <legend>Options</legend>
-          <p>
-            <input type="radio" id="option-a" name="option">
-            <label for="option-a">Option A</label>
-          </p>
-          <p>
-            <input type="radio" id="option-b" name="option">
-            <label for="option-b">Option B</label>
-          </p>
-          <button>Login</button>
-        </utrecht-html-content>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
@@ -392,16 +398,16 @@
         <div class="example utrecht-theme">
           <utrecht-html-content>
             <legend>Options</legend>
-          <p>
-            <input type="radio" id="option-a" name="option">
-            <label for="option-a">Option A</label>
-          </p>
-          <p>
-            <input type="radio" id="option-b" name="option">
-            <label for="option-b">Option B</label>
-          </p>
-          <button>Login</button>
-        </utrecht-html-content>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
@@ -409,16 +415,16 @@
         <div class="example DUO-theme duo-theme">
           <utrecht-html-content>
             <legend>Options</legend>
-          <p>
-            <input type="radio" id="option-a" name="option">
-            <label for="option-a">Option A</label>
-          </p>
-          <p>
-            <input type="radio" id="option-b" name="option">
-            <label for="option-b">Option B</label>
-          </p>
-          <button>Login</button>
-        </utrecht-html-content>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
@@ -426,16 +432,16 @@
         <div class="example tilburg-theme">
           <utrecht-html-content>
             <legend>Options</legend>
-          <p>
-            <input type="radio" id="option-a" name="option">
-            <label for="option-a">Option A</label>
-          </p>
-          <p>
-            <input type="radio" id="option-b" name="option">
-            <label for="option-b">Option B</label>
-          </p>
-          <button>Login</button>
-        </utrecht-html-content>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
         </div>
       </section>
       <section>
@@ -443,16 +449,16 @@
         <div class="example toolkit-theme">
           <utrecht-html-content>
             <legend>Options</legend>
-          <p>
-            <input type="radio" id="option-a" name="option">
-            <label for="option-a">Option A</label>
-          </p>
-          <p>
-            <input type="radio" id="option-b" name="option">
-            <label for="option-b">Option B</label>
-          </p>
-          <button>Login</button>
-        </utrecht-html-content>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
         </div>
       </section>
     </section>

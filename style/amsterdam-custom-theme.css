@@ -1,13 +1,13 @@
 .amsterdam-theme {
-  --utrecht-form-label-radio-font-weight: bold;
+  --utrecht-form-label-radio-font-weight: 700;
   --utrecht-table-caption-font-weight: var(
     --amsterdam-typography-weight-scale-bold-font-weight
   );
   --utrecht-table-header-border-block-end-color: transparent;
   --utrecht-table-header-border-block-end-width: 0;
-  --utrecht-table-heading-font-weight: normal;
+  --utrecht-table-heading-font-weight: 400;
   --utrecht-table-row-border-block-end-color: transparent;
-  --utrecht-table-cell-line-height: 0.1;
+  --utrecht-table-cell-line-height: 1;
   --utrecht-typography-scale-sm-font-size: var(
     --amsterdam-typography-scale-sm-font-size: 14px
   );

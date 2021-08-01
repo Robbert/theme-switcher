@@ -7,13 +7,13 @@
   --utrecht-form-label-font-weight: normal;
   --utrecht-heading-1-font-size: var(--duo-typography-scale-xl-font-size);
   /* Je kunt de heading niet aanpassen, de styling wordt altijd doorstreept. Hoe komt dit??*/
-  --utrecht-label-font-weight: normal;
+  --utrecht-label-font-weight: 400;
   --utrecht-paragraph-font-family: Verdana;
   --utrecht-table-caption-font-weight: var(
     --amsterdam-typography-weight-scale-bold-font-weight
   );
   --utrecht-table-header-border-block-width: 0.5px;
-  --utrecht-table-heading-font-weight: normal;
+  --utrecht-table-heading-font-weight: 400;
   /*Hiermee kun je de font weight aanpassen, alleen voor alles binnen de tabel wordt aangepast. Dus misschien moet er nog
   een font-weight voor de cellen in de tabel naast de heading. Gezien hiermee pas je alles aan. Tenzij je het met meerdere
   classes zou willen fixen*/

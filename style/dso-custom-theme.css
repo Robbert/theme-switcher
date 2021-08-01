@@ -74,5 +74,5 @@
 .dso-tabel-begin {
   /* Ik kon niet een component vinden die alleen de fontweight van de 1 kolom pakt dus dan zo gedaan.
   Misschien moet je die nog fixen*/
-  --utrecht-table-heading-font-weight: bold;
+  --utrecht-table-heading-font-weight: 700;
 }

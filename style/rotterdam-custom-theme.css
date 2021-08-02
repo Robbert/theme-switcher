@@ -1,0 +1,25 @@
+.rotterdam-theme {
+  --rotterdam-color-black-10: hsl(0 0% /14%);
+  --rotterdam-color-black-20: hsl(0 0% /20%);
+  --rotterdam-color-green-30: hsl(138 72% /31%); /*#168838*/
+  --rotterdam-color-grey-100: hsl(0 0% /96%); /*#f5f5f5*/
+  --rotterdam-color-orange-40: hsl(7 92% /44%); /*#d64309*/
+  --rotterdam-color-white-100: hsl(0 100% /100%);
+  --rotterdam-sans-serif-font-family: "proxima-nova", Arial, sans-serif;
+  --utrecht-badge-background-color: #168838;
+  --utrecht-button-primary-action-background-color: #168838;
+  --utrecht-document-font-family: var(--rotterdam-sans-serif-font-family);
+  --utrecht-document-color: var(--rotterdam-color-black-20);
+  --utrecht-form-input-color: var(--rotterdam-color-grey-100);
+  --utrecht-form-input-border-color: grey;
+  --utrecht-heading-1-font-size: 30px;
+  --utrecht-table-header-border-block-end-color: #e7e7e7;
+  --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-textbox-border-bottom-width: 1px;
+  --utrecht-radio-button-border-color: var(--rotterdam-color-green-30);
+  /* Radiobuttons zijn er niet echt te vinden op de site, ik kan het wel met de checkbuttons doen. Maar daar
+  zijn er nog geen componenten voor dus dit is het voor zover met de radiobuttons*/
+}
+.rotterdam-radio {
+  border: 1px solid black;
+}

@@ -1,0 +1,12 @@
+.zwolle-theme {
+  --zwolle-color-blue-50: hsl(220 44% 50%); /*#476db7*/
+  --zwolle-color-blue-45: hsl(208 56% 46%); /*#337ab7*/
+  --zwolle-color-blue-40: hsl(220 44% 40%); /*#395791*/
+  --zwolle-color-pink-45: hsl(332 100% 45%); /*#e5006c*/
+  --zwolle-sans-serif-font-family: "DIN", Arial, Helvetica, sans-serif;
+  --utrecht-badge-background-color: var(--zwolle-color-blue-40);
+  --utrecht-badge-font-weight: 700;
+  --utrecht-document-font-family: var(--zwolle-sans-serif-font-family);
+  --utrecht-heading-1-color: var(--zwolle-color-blue-40);
+  --utrecht-heading-1-font-size: 31px;
+}

@@ -1,8 +1,38 @@
 .groningen-theme {
+  /* Groningen heeft op hun hoofdpagina niet alle componenten zoals een tabel en inlogveld dus heb het zoekveld
+  gebruikt en op een andere site van Groningen gezocht naar een voorbeeld van een tabel. Handig 3 type stylingen
+  voor 3 websites van Groningen*/
   --groningen-color-green-40: hsl(128 16% /36%); /*#4d6a51*/
   --groningen-color-grey-100: white;
   --groningen-sans-serif-font-family: Arial;
   --groningen-sans-serif-alternate-font-family: Verdana;
-  --utrecht-page-footer-background-color: var(--groningen-color-green-40);
-  --utrecht-page-footer-color: var(--groningen-color-grey-100);
+  /*  Bij sommige input velden word de tekst ook dikker naast border-width en zo missen we nog dit component:
+  --groningen-form-input-focus-font-weight:700;  */
+  --utrecht-badge-background-color: #f3f3f3;
+  --utrecht-badge-color: #55504f;
+  --utrecht-button-primary-action-background-color: #4d6a51;
+  --utrecht-button-primary-action-color: #fff;
+  --utrecht-button-primary-action-hover-background-color: #4d6a51;
+  --utrecht-document-font-family: TT Norms Pro, sans-serif;
+  --utrecht-heading-1-font-family: Groningenregular, sans-serif;
+  --utrecht-form-input-placeholder-color: #0e0301;
+  --utrecht-form-input-border-color: white;
+  --utrecht-form-input-border-width: 1px;
+  --utrecht-form-input-focus-border-width: 1px;
+  /* De heading van Groningen heeft een font-family
+  Groningenregular en die bestaat niet hier of het werkt niet dus ik weet niet wat we precies hiermee moeten. */
+  --utrecht-page-footer-background-color: #4d6a51;
+  --utrecht-page-footer-color: white;
+  /* De footer wilt zich nog niet laten aanpassen in styling op deze manier en ook niet als er een extra
+  class aan toevoeg. Dus voor het bewerken van de footer mist er nog iets. De footer heeft nu wel de kleur Utrecht,
+  maar dat is alles wat het heeft.*/
+  --utrecht-table-cell-font-size: 18px;
+  --utrecht-table-header-font-weight: 400;
+  --utrecht-table-header-border-block-end-color: ebebeb;
+  --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-textbox-border-bottom-width: 1px;
+  --utrecht-textbox-border-radius: 3px;
+}
+.groningen-table-header {
+  background-color: #f5f5f5;
 }

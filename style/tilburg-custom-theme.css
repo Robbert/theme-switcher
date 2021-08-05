@@ -15,7 +15,9 @@ als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in
   /* Ik kan nu niks met de cellen van tabellen border doen hierin. Maar ik zag wel dat je dat in het nieuwe bestand had gezet. Dus
   dan moet je dat straks alleen nog toevoegen dat het hier ook werkt*/
   --utrecht-textbox-border-color: grey;
+  --utrecht-textbox-border-bottom-width: 0.5px;
   --utrecht-textbox-border-radius: 3px;
+
   /*
   Tabel
   Bij een aantal soorten tabellen heeft de header een ander achtergrond kleur. Die mist nog bij de voorbeelden in Utrecht

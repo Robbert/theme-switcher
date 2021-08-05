@@ -15,6 +15,7 @@
   --utrecht-table-header-border-block-end-width: 0.5px;
   --utrecht-table-header-color: white;
   --utrecht-textbox-border-bottom-width: 1px;
+  --utrecht-textbox-border-radius: 2px;
 }
 .zwolle-table-header {
   background-color: var(--zwolle-color-blue-50);

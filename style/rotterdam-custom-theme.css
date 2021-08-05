@@ -12,7 +12,6 @@
   van de gemeente alleen die kan ik zover nog niet aanpassen.
   */
   --utrecht-document-font-family: var(--rotterdam-sans-serif-font-family);
-  --utrecht-document-color: var(--rotterdam-color-black-20);
   --utrecht-form-input-color: var(--rotterdam-color-grey-100);
   --utrecht-form-input-border-color: grey;
   --utrecht-heading-1-font-size: 30px;
@@ -24,3 +23,9 @@
 .rotterdam-radio {
   border: 1px solid black;
 }
+/*
+Gezien ik hier wel de achtergrond kan aanpassen maar niet de kleur van de tekst heb ik hem voor nu eruit gelaten
+.rotterdam-table {
+  background-color: #0d0d0d;
+  color: #fff;
+}*/

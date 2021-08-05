@@ -4,7 +4,8 @@
   --borne-color-green-30: hsl(139 54% 34%); /*#288746*/
   --borne-color-blue-green-40: hsl(199 45% 41%); /*#3a7b98*/
   --borne-color-blue-green-30: hsl(180 100% 25%); /*#008282*/
-  --borne-sans-serif-font-family: Helvetica Neue, Arial, sans-serif;
+  --borne-sans-serif-font-family: Helvetica Neue, Arial, sans-serif, Noto Sans,
+    Segoe UI Symbol;
   --utrecht-badge-background-color: var(--borne-color-blue-20);
   --utrecht-badge-border-radius: 3px;
   --utrecht-button-primary-action-background-color: #002d50;

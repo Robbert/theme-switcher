@@ -3,6 +3,7 @@
   --utrecht-border-style-solid: solid;
   /*volgens mij missen we nog een utrecht-badge-font-size. Gezien ik hem niet kan vinden en het niks doet
 als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in de badge naast de font-weight*/
+  --utrecht-button-primary-action-background-color: #026596;
   --utrecht-document-font-family: Arial;
   --utrecht-form-input-border-width: 0.1px;
   --utrecht-heading-1-color: #016596;

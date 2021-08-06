@@ -8,7 +8,9 @@
   --rotterdam-sans-serif-font-family: "proxima-nova", Arial, sans-serif;
   --utrecht-badge-background-color: #168838;
   --utrecht-button-primary-action-background-color: #168838;
-  --utrecht-checkbox-border-color: #168838;
+  --utrecht-checkbox-border-color: #849e8c;
+  --thierry-checkbox-border-width: 1px;
+  --thierry-checkbox-border-color: #849e8c;
   /*--rotterdam-checkbox-border-color: #168838; Rotterdam heeft meer checkbox alleen die border heeft een de kleur
   van de gemeente alleen die kan ik zover nog niet aanpassen.
   */
@@ -28,9 +30,3 @@
 .rotterdam-radio {
   border: 1px solid black;
 }
-/*
-Gezien ik hier wel de achtergrond kan aanpassen maar niet de kleur van de tekst heb ik hem voor nu eruit gelaten
-.rotterdam-table {
-  background-color: #0d0d0d;
-  color: #fff;
-}*/

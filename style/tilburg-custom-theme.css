@@ -12,6 +12,7 @@ als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in
   --utrecht-table-header-border-block-width: 0.1px;
   --utrecht-table-header-border-block-end-color: ebebeb;
   --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-table-header-background-color: #e5e5e5;
   --utrecht-table-row-border-block-color: #ebebeb;
   --utrecht-table-cell-border-color: #ebebeb;
   /* Ik kan nu niks met de cellen van tabellen border doen hierin. Maar ik zag wel dat je dat in het nieuwe bestand had gezet. Dus

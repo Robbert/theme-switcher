@@ -17,6 +17,7 @@
   --utrecht-heading-1-font-size: 30px;
   --utrecht-table-header-border-block-end-color: #e7e7e7;
   --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-table-header-background-color: #168838;
   --utrecht-textbox-border-bottom-width: 1px;
   --utrecht-radio-button-border-color: var(--rotterdam-color-green-30);
 }

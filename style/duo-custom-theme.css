@@ -12,7 +12,7 @@
   );
   --utrecht-table-header-border-block-width: 0.5px;
   --utrecht-table-header-font-weight: 700;
-  /*Het is niet helemaal duidelijk hoe dit nou werkt. Het is er wel of niet, wat de code bestaat wel al alleen werkt ie niet*/
+  /* Meerdere code van de styling werkt niet*/
   --utrecht-table-header-background-color: #e6e6e6;
   --utrecht-table-row-border-block-color: #ebebeb;
   --utrecht-table-row-border-block-width: 1px;

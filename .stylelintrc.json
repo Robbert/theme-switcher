@@ -1,6 +1,6 @@
 {
   "rules": {
-    "custom-property-pattern": "(amsterdam|borne|denhaag|dso|duo|example|groningen|rotterdam|tilburg|utrecht|zwolle)-[a-z0-9-]+",
+    "custom-property-pattern": "(amsterdam|borne|denhaag|dso|duo|example|gemeente|groningen|rotterdam|tilburg|utrecht|zwolle)-[a-z0-9-]+",
     "selector-class-pattern": "(amsterdam|borne|denhaag|dso|duo|example|groningen|rotterdam|tilburg|utrecht|zwolle)-[a-z0-9-]+",
     "keyframes-name-pattern": "(amsterdam|borne|denhaag|dso|duo|example|groningen|rotterdam|tilburg|utrecht|zwolle)-[a-z0-9-]+",
     "at-rule-no-unknown": [true],

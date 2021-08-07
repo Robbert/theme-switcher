@@ -11,9 +11,6 @@
   --utrecht-checkbox-border-color: #168838;
   --thierry-checkbox-border-width: 2px;
   --thierry-checkbox-border-color: #168838;
-  /*--rotterdam-checkbox-border-color: #168838; Rotterdam heeft meer checkbox alleen die border heeft een de kleur
-  van de gemeente alleen die kan ik zover nog niet aanpassen.
-  */
   --utrecht-document-font-family: var(--rotterdam-sans-serif-font-family);
   --utrecht-form-input-color: var(--rotterdam-color-grey-100);
   --utrecht-form-input-border-color: grey;

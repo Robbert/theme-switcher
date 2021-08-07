@@ -2,6 +2,7 @@
   --tilburg-color-orange-50: hsl(27 96% 48%); /*#F06E05*/
   --utrecht-badge-background-color: var(--tilburg-color-orange-50);
   --utrecht-border-style-solid: solid;
+  --utrecht-badge-font-size: 1.5rem;
   /*volgens mij missen we nog een utrecht-badge-font-size. Gezien ik hem niet kan vinden en het niks doet
 als ik het probeer. En gezien in bepaalde situatie de font-size wat groter is in de badge naast de font-weight*/
   --utrecht-button-primary-action-background-color: #026596;

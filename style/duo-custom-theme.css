@@ -6,16 +6,14 @@
   --utrecht-button-font-size: 10px; /* Dit werkt niet helemaal */
   --utrecht-form-label-font-weight: 400;
   --utrecht-heading-1-font-size: 50px;
-  /* Je kunt de heading niet aanpassen, de styling wordt altijd doorstreept. Hoe komt dit??*/
   --utrecht-paragraph-font-family: Verdana;
   --utrecht-table-caption-font-weight: var(
     --amsterdam-typography-weight-scale-bold-font-weight
   );
   --utrecht-table-header-border-block-width: 0.5px;
-  --utrecht-table-heading-font-weight: 400;
-  /*Hiermee kun je de font weight aanpassen, alleen voor alles binnen de tabel wordt aangepast. Dus misschien moet er nog
-  een font-weight voor de cellen in de tabel naast de heading. Gezien hiermee pas je alles aan. Tenzij je het met meerdere
-  classes zou willen fixen*/
+  --utrecht-table-header-font-weight: 700;
+  /*Het is niet helemaal duidelijk hoe dit nou werkt. Het is er wel of niet, wat de code bestaat wel al alleen werkt ie niet*/
+  --utrecht-table-header-background-color: #e6e6e6;
   --utrecht-table-row-border-block-color: #ebebeb;
   --utrecht-table-row-border-block-width: 1px;
   --utrecht-table-cell-line-height: 0.7;

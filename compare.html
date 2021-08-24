@@ -8,6 +8,16 @@
       type="text/css"
       href="https://unpkg.com/@nl-design-system-unstable/amsterdam-design-tokens/dist/theme/index.css"
     />
+    <link rel="stylesheet" type="text/css" href="style/amsterdam-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/borne-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/tilburg-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/dso-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/duo-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/groningen-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/rotterdam-custom-theme.css" />
+    <link rel="stylesheet" type="text/css" href="style/zwolle-custom-theme.css" />
+    <link rel="stylesheet" href="style/checkbox.css">
+    <link rel="stylesheet" href="https://unpkg.com/@gemeente-denhaag/design-tokens-components/dist/theme/index.css">
     <link
       rel="stylesheet"
       type="text/css"
@@ -19,14 +29,26 @@
       href="https://unpkg.com/@nl-design-system-unstable/duo-design-tokens/dist/theme/index.css"
     />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../utrecht/packages/component-library-css/dist/index.css"
+    />
     <script
       src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
       type="module"
     ></script>
     <style>
-      .example {
-        padding: 2em;
+      .example-story {
+        padding-inline-start: 2em;
+        padding-inline-end: 2em;
+        padding-block-start: 2em;
+        padding-block-end: 2em;
         outline: 2px dotted silver;
+      }
+      section {
+        padding-inline-start: 2em;
+        border-inline-start: 1px solid darkgrey;
       }
     </style>
   </head>
@@ -36,33 +58,1002 @@
       <h2>Heading 1</h2>
       <section>
         <h3>Amsterdam</h3>
-        <div class="example amsterdam-theme">
+        <div class="example-story amsterdam-theme">
           <utrecht-html-content>
             <h1>Example</h1>
           </utrecht-html-content>
         </div>
       </section>
       <section>
-        <h3>Den Haag</h3>
-        <div class="example utrecht-theme">
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
           <utrecht-html-content>
             <h1>Example</h1>
           </utrecht-html-content>
         </div>
       </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story toolkit-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+        <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Zwolle</h3>
+        <div class="example-story zwolle-theme">
+          <utrecht-html-content>
+            <h1>Example</h1>
+          </utrecht-html-content>
+        </div>
+      </section>
+
     </section>
     <section>
       <h2>Category badge</h2>
       <section>
         <h3>Amsterdam</h3>
-        <div class="example amsterdam-theme">
+        <div class="example-story amsterdam-theme">
           <utrecht-badge-status>Example</utrecht-badge-status>
         </div>
       </section>
       <section>
-        <h3>Den Haag</h3>
-        <div class="example utrecht-theme">
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
           <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story toolkit-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+        <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+      <section>
+        <h3>Zwolle</h3>
+        <div class="example-story zwolle-theme">
+          <utrecht-badge-status>Example</utrecht-badge-status>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Category text</h2>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example-story amsterdam-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Amsterdam</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Borne</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story toolkit-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is by DSO Toolkit</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is by DUO</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Groningen</p>
+          </utrecht-html-content>
+        </div>
+        <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <p>Example: This is how it is in Groningen</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Rotterdam</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Utrecht</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in Utrecht</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Zwolle</h3>
+        <div class="example-story zwolle-theme">
+          <utrecht-html-content>
+            <p>Example: This is how it is in zwolle</p>
+          </utrecht-html-content>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Category table</h2>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example-story amsterdam-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                  <th>Example D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="tabel-begin">1</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+                <tr>
+                  <th class="tabel-begin">2</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story toolkit-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                  <th>Example D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="tabel-begin">1</th>
+                  <th><a href="">Example B</a></th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+                <tr>
+                  <th class="tabel-begin">2</th>
+                  <th><a href="">Example B</a></th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <caption>
+                  Years
+                </caption>
+                <tr class="table-heading">
+                  <th></th>
+                  <th>2020</th>
+                  <th>2021</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr></tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                  <th>Example D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="tabel-begin">1</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+                <tr>
+                  <th class="tabel-begin">2</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+        <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                  <th>Example D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="tabel-begin">1</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+                <tr>
+                  <th class="tabel-begin">2</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                  <th>Example D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="tabel-begin">1</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+                <tr>
+                  <th class="tabel-begin">2</th>
+                  <th>Example B</th>
+                  <th>Cel C</th>
+                  <th>Cel D</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <thead>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                  <th>Example C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel C</th>
+                </tr>
+                <tr>
+                  <th>Cel A</th>
+                  <th>Cel B</th>
+                  <th>Cel c</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <table>
+              <caption>
+                Example table
+              </caption>
+              <tbody>
+                <thead>
+                  <tr>
+                    <th>Example A</th>
+                    <th>Example B</th>
+                  </tr>
+                </thead>
+              </tbody>
+
+              <tbody>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                </tr>
+                <tr>
+                  <th>Example A</th>
+                  <th>Example B</th>
+                </tr>
+              </tbody>
+            </table>
+          </utrecht-html-content>
+        </div>
+      </section>
+  <section>
+    <h3>Zwolle</h3>
+    <div class="example-story zwolle-theme">
+      <utrecht-html-content>
+        <table>
+          <caption>
+            Example table
+          </caption>
+          <thead>
+            <tr>
+              <th>Example A</th>
+              <th>Example B</th>
+              <th>Example C</th>
+              <th>Example D</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="tabel-begin">1</th>
+              <th>Example B</th>
+              <th>Cel C</th>
+              <th>Cel D</th>
+            </tr>
+            <tr>
+              <th class="tabel-begin">2</th>
+              <th>Example B</th>
+              <th>Cel C</th>
+              <th>Cel D</th>
+            </tr>
+          </tbody>
+        </table>
+      </utrecht-html-content>
+    </div>
+  </section>
+</section>
+</section>
+    <section>
+      <h2>Category inputfields</h2>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example-story amsterdam-theme">
+          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
+          <utrecht-html-content>
+            <label for="Username">Zoeken</label>
+            <input type="text" placeholder="Zoeken" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story dso-theme">
+          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" placeholder="username" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-html-content>
+            <label for="Username">Username</label>
+            <input type="text" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <label for="Username">Zoeken</label>
+            <input type="text" placeholder="Zoeken in Groningen.nl"/>
+          </utrecht-html-content>
+        </div>
+        <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <utrecht-html-content>
+            <label for="Username">Zoeken</label>
+            <input type="text" placeholder="Zoeken in Groningen.nl"/>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <utrecht-html-content>
+            <label for="Username">Zoeken</label>
+            <input type="text" placeholder="Zoek uw term" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <label for="Username">Username</label>
+            <input type="text" />
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Zwolle</h3>
+        <div class="example-story zwolle-theme">
+          <utrecht-html-content>
+            <label for="Username">Username</label><br />
+            <input type="text" placeholder="username" />
+          </utrecht-html-content>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Category input radio</h2>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example-story amsterdam-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="checkbox" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="checkbox" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Den Haag</h3>
+        <div class="example-story denhaag-theme">
+          <p>
+            <span class="denhaag-checkbox ">
+              <input type="checkbox"
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Unchecked</label>
+          </p>
+          <p>
+            <span class="denhaag-checkbox denhaag-checkbox--checked ">
+              <input type="checkbox" checked
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Checked</label>
+          </p>
+          <p>
+            <span class="denhaag-checkbox denhaag-checkbox--disabled">
+              <input type="checkbox" disabled
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Disabled</label>
+          </p>
+          <p>
+            <span class="denhaag-checkbox denhaag-checkbox--error">
+              <input type="checkbox" disabled
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Error</label>
+          </p>
+        </div>
+      </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story toolkit-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="checkbox" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="checkbox" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <p>
+              <input type="checkbox" id="option-b" name="option" />
+              <label for="option-b">I agree with the terms of conditions</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="checkbox" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="checkbox" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+        <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="checkbox" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="checkbox" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <p>
+            <span class="denhaag-checkbox ">
+              <input type="checkbox"
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Unchecked</label>
+          </p>
+          <p>
+            <span class="denhaag-checkbox denhaag-checkbox--checked ">
+              <input type="checkbox" checked
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Checked</label>
+          </p>
+          <p>
+            <span class="denhaag-checkbox denhaag-checkbox--disabled">
+              <input type="checkbox" disabled
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Disabled</label>
+          </p>
+          <p>
+            <span class="denhaag-checkbox denhaag-checkbox--error">
+              <input type="checkbox" disabled
+                class="denhaag-checkbox__input"
+              />
+              <span class="denhaag-checkbox__icon">✓</span>
+
+            </span>
+            <label for="">Error</label>
+          </p>
+        </div>
+        <div class="example-story rotterdam-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="checkbox" id="option-a" name="option" class="rotterdam-radio" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="checkbox" id="option-b" name="option" class="rotterdam-radio"/>
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Zwolle</h3>
+        <div class="example-story zwolle-theme">
+          <utrecht-html-content>
+            <legend>Options</legend>
+            <p>
+              <input type="radio" id="option-a" name="option" />
+              <label for="option-a">Option A</label>
+            </p>
+            <p>
+              <input type="radio" id="option-b" name="option" />
+              <label for="option-b">Option B</label>
+            </p>
+            <button>Login</button>
+          </utrecht-html-content>
+        </div>
+      </section>
+    </section>
+    <section>
+      <h2>Footer</h2>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Groningen</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Amsterdam</h3>
+        <div class="example-story amsterdam-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Amsterdam</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Borne</h3>
+        <div class="example-story borne-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Borne</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DSO Toolkit</h3>
+        <div class="example-story dso-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Toolkit</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>DUO</h3>
+        <div class="example-story duo-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello DUO</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Groningen</h3>
+        <div class="example-story groningen-theme">
+          <utrecht-html-content>
+            <footer class="groningen-page-footer">Hello Groningen</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+      <h3>Gemeente Groningen</h3>
+        <div class="example-story groningen-gemeente-theme">
+          <utrecht-html-content>
+            <footer class="groningen-page-footer">Hello Groningen</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Rotterdam</h3>
+        <div class="example-story rotterdam-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Rotterdam</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Tilburg</h3>
+        <div class="example-story tilburg-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Tilburg</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Utrecht</h3>
+        <div class="example-story utrecht-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Utrecht</footer>
+          </utrecht-html-content>
+        </div>
+      </section>
+      <section>
+        <h3>Zwolle</h3>
+        <div class="example-story zwolle-theme">
+          <utrecht-html-content>
+            <footer class="utrecht-page-footer">Hello Zwolle</footer>
+          </utrecht-html-content>
         </div>
       </section>
     </section>

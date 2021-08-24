@@ -1,0 +1,24 @@
+.tilburg-theme {
+  --tilburg-color-orange-50: hsl(27 96% 48%); /*#F06E05*/
+  --utrecht-badge-background-color: var(--tilburg-color-orange-50);
+  --utrecht-border-style-solid: solid;
+  --utrecht-badge-font-size: 1.5rem;
+  /* Wel toegevoegd aan het storybook, werkt alleen op de compare.html nog niet*/
+  --utrecht-button-primary-action-background-color: #026596;
+  --utrecht-document-font-family: Arial;
+  --utrecht-form-input-border-width: 0.1px;
+  --utrecht-heading-1-color: #016596;
+  --utrecht-heading-font-weight: 700;
+  --utrecht-table-header-border-block-width: 0.1px;
+  --utrecht-table-header-border-block-end-color: ebebeb;
+  --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-table-header-background-color: #e5e5e5;
+  --utrecht-table-row-border-block-color: #ebebeb;
+  --utrecht-table-border-color: black;
+  --utrecht-table-border-width: 0.5px;
+  /* Als ik dit toevoegde in het storybook op de cell paste de lijnen wel aan alleen horizontaal. Maar de border moet rondom en daar
+  kwam ik niet uit.*/
+  --utrecht-textbox-border-color: grey;
+  --utrecht-textbox-border-bottom-width: 0.5px;
+  --utrecht-textbox-border-radius: 3px;
+}

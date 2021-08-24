@@ -1,0 +1,23 @@
+.borne-theme {
+  --borne-color-blue-20: hsl(206 100% 16%); /*#002d50*/
+  --borne-color-blue-40: hsl(205 100% 35%); /*#0069b4*/
+  --borne-color-green-30: hsl(139 54% 34%); /*#288746*/
+  --borne-color-blue-green-40: hsl(199 45% 41%); /*#3a7b98*/
+  --borne-color-blue-green-30: hsl(180 100% 25%); /*#008282*/
+  --borne-sans-serif-font-family: Helvetica Neue, Arial, sans-serif, Noto Sans,
+    Segoe UI Symbol;
+  --utrecht-badge-background-color: var(--borne-color-blue-20);
+  --utrecht-badge-border-radius: 3px;
+  --utrecht-button-primary-action-background-color: #002d50;
+  --utrecht-document-font-family: var(--borne-sans-serif-font-family);
+  --utrecht-document-color: #002d50;
+  --utrecht-heading-color: var(--borne-color-blue-20);
+  --utrecht-heading-1-font-size: 1.25rem;
+  --utrecht-heading-font-weight: 700;
+  --utrecht-table-color: #002d50; /*Dit type component mist er nog. Gezien bepaalde gemeentes/organisaties
+  een kleur voor alles gebruikt en de document-color neemt de tabel niet mee dus mist deze er nog */
+  --utrecht-table-header-border-block-end-color: #002d50;
+  --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-textbox-border-bottom-width: 0.5px;
+  --utrecht-textbox-border-radius: 3px;
+}

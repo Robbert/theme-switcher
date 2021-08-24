@@ -1,0 +1,23 @@
+.zwolle-theme {
+  --zwolle-color-blue-50: hsl(220 44% 50%); /*#476db7*/
+  --zwolle-color-blue-45: hsl(208 56% 46%); /*#337ab7*/
+  --zwolle-color-blue-40: hsl(220 44% 40%); /*#395791*/
+  --zwolle-color-pink-45: hsl(332 100% 45%); /*#e5006c*/
+  --zwolle-sans-serif-font-family: "DIN", Arial, Helvetica, sans-serif;
+  --utrecht-badge-background-color: var(--zwolle-color-blue-40);
+  --utrecht-badge-font-weight: 700;
+  --utrecht-button-primary-action-background-color: #476db7;
+  --utrecht-document-font-family: var(--zwolle-sans-serif-font-family);
+  --utrecht-form-input-placeholder-color: #476db7;
+  --utrecht-heading-1-color: var(--zwolle-color-blue-40);
+  --utrecht-heading-1-font-size: 31px;
+  --utrecht-table-header-border-block-end-color: ebebeb;
+  --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-table-header-background-color: #476db7;
+  --utrecht-table-header-color: white;
+  --utrecht-textbox-border-bottom-width: 1px;
+  --utrecht-textbox-border-radius: 2px;
+}
+.zwolle-table-header {
+  background-color: var(--zwolle-color-blue-50);
+}

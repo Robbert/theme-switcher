@@ -3,32 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>NL Design System example</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@nl-design-system-unstable/amsterdam-design-tokens/dist/theme/index.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@nl-design-system-unstable/rijkshuisstijl-design-tokens/dist/theme/index.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@nl-design-system-unstable/duo-design-tokens/dist/theme/index.css"
-    />
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@utrecht/design-tokens/dist/theme/index.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@gemeente-haarlem/design-tokens/dist/index.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://unpkg.com/@gemeente-denhaag/design-tokens-components/dist/theme/index.css"
-    />
     <script
       src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
       type="module"
@@ -48,6 +22,7 @@
         background: white;
         border-bottom: 1px solid black;
         display: flex;
+        padding: 0 8px;
         align-items: center;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
         background-color: #eee;
@@ -57,14 +32,7 @@
   </head>
   <body>
     <div class="theme-switcher">
-      <label for="">Theme:</label>
-      <select onchange="document.documentElement.className = this.value">
-        <option value="duo-theme">DUO</option>
-        <option value="amsterdam-theme">Gemeente Amsterdam</option>
-        <option value="denhaag-theme">Gemeente Den Haag</option>
-        <option value="haarlem-theme">Gemeente Haarlem</option>
-        <option value="utrecht-theme" selected>Gemeente Utrecht</option>
-      </select>
+      <theme-switcher></theme-switcher>
     </div>
     <utrecht-html-content>
       <h1>Page styled with NL Design System</h1>
@@ -273,5 +241,6 @@
         <p>Footer</p>
       </utrecht-page-footer>
     </utrecht-html-content>
+    <script src="theme-switcher.js"></script>
   </body>
 </html>

@@ -1,0 +1,20 @@
+.duo-theme {
+  --utrecht-badge-background-color: var(
+    --rijkshuisstijl-color-donkergeel-basis
+  );
+  --utrecht-badge-border-radius: 6px;
+  --utrecht-button-font-size: 10px; /* Dit werkt niet helemaal */
+  --utrecht-form-label-font-weight: 400;
+  --utrecht-heading-1-font-size: 50px;
+  --utrecht-paragraph-font-family: Verdana;
+  --utrecht-table-caption-font-weight: var(
+    --amsterdam-typography-weight-scale-bold-font-weight
+  );
+  --utrecht-table-header-border-block-width: 0.5px;
+  --utrecht-table-header-font-weight: 700;
+  /* Meerdere code van de styling werkt niet*/
+  --utrecht-table-header-background-color: #e6e6e6;
+  --utrecht-table-row-border-block-color: #ebebeb;
+  --utrecht-table-row-border-block-width: 1px;
+  --utrecht-table-cell-line-height: 0.7;
+}

@@ -1,0 +1,78 @@
+.dso-theme {
+  --utrecht-article-max-block-size: 100%;
+  --utrecht-document-font-size: 16px;
+  --utrecht-heading-1-font-size: 32px;
+  --utrecht-heading-2-font-size: 24px;
+  --utrecht-heading-3-font-size: 20px;
+  --utrecht-heading-4-font-size: 16px;
+  --utrecht-heading-5-font-size: 16px;
+  --utrecht-heading-6-font-size: 16px;
+  --utrecht-heading-1-color: var(--dso-toolkit-bosgroen);
+  --utrecht-heading-2-color: var(--dso-toolkit-bosgroen);
+  --utrecht-heading-3-color: var(--dso-toolkit-bosgroen);
+  --utrecht-heading-4-color: var(--dso-toolkit-bosgroen);
+  --utrecht-heading-5-color: var(--dso-toolkit-zwart-90);
+  --utrecht-document-line-height: 1.5;
+  --utrecht-heading-1-font-weight: 700;
+  --utrecht-heading-2-font-weight: 700;
+  --utrecht-heading-3-font-weight: 600;
+  --utrecht-heading-4-font-weight: 600;
+  --utrecht-heading-5-font-weight: 600;
+  --utrecht-heading-1-line-height: 1.25;
+  --utrecht-heading-2-line-height: 1.33;
+  --utrecht-heading-3-line-height: 1.2;
+  --utrecht-heading-4-line-height: 1.5;
+  --utrecht-heading-5-line-height: 1.5;
+  --utrecht-color-action-primary: var(--dso-toolkit-grasgroen);
+  --utrecht-color-action-primary-hover: var(--dso-toolkit-bosgroen);
+  --utrecht-color-action-primary-active: #15301e;
+  --utrecht-color-action-primary-disabled: var(--dso-toolkit-grasgroen-40);
+  --utrecht-color-dataviz-1: var(--dso-toolkit-secundair-geel);
+  --utrecht-color-dataviz-2: var(--dso-toolkit-secundair-rood);
+  --utrecht-color-dataviz-3: var(--dso-toolkit-secundair-mintgroen);
+  --utrecht-color-dataviz-4: var(--dso-toolkit-secundair-mauve);
+  --utrecht-color-dataviz-5: var(--dso-toolkit-secundair-paars);
+  --utrecht-color-dataviz-6: var(--dso-toolkit-secundair-donkerblauw);
+  --utrecht-color-dataviz-7: var(--dso-toolkit-secundair-lichtblauw);
+  --utrecht-color-dataviz-8: var(--dso-toolkit-secundair-bruin);
+  --utrecht-link-color: var(--dso-toolkit-grasgroen);
+  --utrecht-link-color-visited: var(--dso-toolkit-secundair-paars);
+  --utrecht-link-color-hover: var(--dso-toolkit-secundair-mauve);
+  --utrecht-font-family-sans-webfont: "Asap", sans-serif;
+  --utrecht-heading-font-family: var(--nih-font-family-sans-webfont);
+  --utrecht-form-input-background-color: white;
+  --utrecht-form-input-border-color: var(--dso-toolkit-bosgroen);
+  --utrecht-form-input-border-width: 1px;
+  --utrecht-form-input-padding-block: 6px;
+  --utrecht-form-input-padding-inline: 14px;
+  --utrecht-form-input-border-radius: 4px;
+  --utrecht-form-input-line-height: 1.5;
+  --utrecht-form-input-height: 40px;
+  --utrecht-form-input-invalid-border-color: var(--dso-toolkit-secundair-rood);
+  --utrecht-form-input-invalid-border-width: 2px;
+  --utrecht-form-input-focus-border-width: 2px;
+  --utrecht-form-label-font-weight: bold;
+  --utrecht-form-input-disabled-border-color: var(--dso-toolkit-zwart-10);
+  --utrecht-form-input-disabled-text-color: #999;
+  --utrecht-badge-background-color: #ffc107;
+  --utrecht-badge-border-radius: 20px;
+  --utrecht-button-primary-action-background-color: #39870c;
+  --utrecht-button-border-radius: 6px;
+  --utrecht-document-font-family: Asap, sans-serif;
+  --utrecht-document-color: #191919;
+  --utrecht-form-label-font-family: Asap, sans-serif;
+  --utrecht-heading-1-font-size: 2rem;
+  --utrecht-heading-1-font-family: Asap, sans-serif;
+  --utrecht-heading-1-color: #275937;
+  --utrecht-link-color: #39870c;
+  --utrecht-table-header-border-block-end-color: ebebeb;
+  --utrecht-table-header-border-block-end-width: 0.5px;
+  --utrecht-textbox-border-bottom-width: 0.04px;
+  --utrecht-textbox-border-color: rgb(39 89 55);
+  --utrecht-textbox-border-radius: 3px;
+}
+.dso-tabel-begin {
+  /* Ik kon niet een component vinden die alleen de fontweight van de 1 kolom pakt dus dan zo gedaan.
+  Misschien moet je die nog fixen*/
+  --utrecht-table-heading-font-weight: 700;
+}
